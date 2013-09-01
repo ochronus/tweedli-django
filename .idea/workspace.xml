@@ -7,11 +7,11 @@
     </list>
     <ignored path="tweedli.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/urls.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378049455618" ignored="false" />
+    <file path="/urls.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378049580069" ignored="false" />
     <file path="/.gitignore" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378010447426" ignored="false" />
     <file path="/fabfile.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378011033893" ignored="false" />
     <file path="/requirements.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378014941262" ignored="false" />
-    <file path="/Dummy.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378049337523" ignored="false" />
+    <file path="/Dummy.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378049461357" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tweedli_web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46735394">
+            <state line="16" column="23" selection-start="584" selection-end="584" vertical-scroll-proportion="0.46735394">
               <folding />
             </state>
           </provider>
@@ -389,7 +389,11 @@
       <created>1378049337816</created>
       <updated>1378049337816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dfgdfg">
+      <created>1378049465046</created>
+      <updated>1378049465046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -529,7 +533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tweedli_web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46735394">
+        <state line="16" column="23" selection-start="584" selection-end="584" vertical-scroll-proportion="0.46735394">
           <folding />
         </state>
       </provider>
