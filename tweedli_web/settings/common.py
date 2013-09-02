@@ -2,7 +2,7 @@
 from os.path import abspath, basename, dirname, join, normpath
 from sys import path
 
-########## PATH CONFIGURATION
+# PATH CONFIGURATION
 # Absolute filesystem path to the Django project directory:
 DJANGO_ROOT = dirname(dirname(abspath(__file__)))
 
@@ -15,7 +15,7 @@ SITE_NAME = basename(DJANGO_ROOT)
 # Add our project to our pythonpath, this way we don't need to type our project
 # name in our dotted import paths:
 path.append(DJANGO_ROOT)
-########## END PATH CONFIGURATION
+# END PATH CONFIGURATION
 
 
 ADMINS = (
@@ -82,7 +82,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
     'compressor.finders.CompressorFinder',
 )
 
@@ -93,7 +93,7 @@ SECRET_KEY = 'fghgdfhd54e45y46737ydth'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    #     'django.template.loaders.eggs.Loader',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -139,6 +139,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
     'social_auth',
+    'django_nose',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -199,31 +200,33 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-TWITTER_CONSUMER_KEY         = 'ntTnSpHEpBeGQMRs4fP9w'
-TWITTER_CONSUMER_SECRET      = 'GMOblgVimQrqprlPrEdug6G6VDGAWooLJnUU8VjYuU'
-FACEBOOK_APP_ID              = ''
-FACEBOOK_API_SECRET          = ''
-LINKEDIN_CONSUMER_KEY        = ''
-LINKEDIN_CONSUMER_SECRET     = ''
-ORKUT_CONSUMER_KEY           = ''
-ORKUT_CONSUMER_SECRET        = ''
-GOOGLE_CONSUMER_KEY          = ''
-GOOGLE_CONSUMER_SECRET       = ''
-GOOGLE_OAUTH2_CLIENT_ID      = ''
-GOOGLE_OAUTH2_CLIENT_SECRET  = ''
-FOURSQUARE_CONSUMER_KEY      = ''
-FOURSQUARE_CONSUMER_SECRET   = ''
-VK_APP_ID                    = ''
-VK_API_SECRET                = ''
-LIVE_CLIENT_ID               = ''
-LIVE_CLIENT_SECRET           = ''
-SKYROCK_CONSUMER_KEY         = ''
-SKYROCK_CONSUMER_SECRET      = ''
-YAHOO_CONSUMER_KEY           = ''
-YAHOO_CONSUMER_SECRET        = ''
-READABILITY_CONSUMER_SECRET  = ''
-READABILITY_CONSUMER_SECRET  = ''
+TWITTER_CONSUMER_KEY = 'ntTnSpHEpBeGQMRs4fP9w'
+TWITTER_CONSUMER_SECRET = 'GMOblgVimQrqprlPrEdug6G6VDGAWooLJnUU8VjYuU'
+FACEBOOK_APP_ID = ''
+FACEBOOK_API_SECRET = ''
+LINKEDIN_CONSUMER_KEY = ''
+LINKEDIN_CONSUMER_SECRET = ''
+ORKUT_CONSUMER_KEY = ''
+ORKUT_CONSUMER_SECRET = ''
+GOOGLE_CONSUMER_KEY = ''
+GOOGLE_CONSUMER_SECRET = ''
+GOOGLE_OAUTH2_CLIENT_ID = ''
+GOOGLE_OAUTH2_CLIENT_SECRET = ''
+FOURSQUARE_CONSUMER_KEY = ''
+FOURSQUARE_CONSUMER_SECRET = ''
+VK_APP_ID = ''
+VK_API_SECRET = ''
+LIVE_CLIENT_ID = ''
+LIVE_CLIENT_SECRET = ''
+SKYROCK_CONSUMER_KEY = ''
+SKYROCK_CONSUMER_SECRET = ''
+YAHOO_CONSUMER_KEY = ''
+YAHOO_CONSUMER_SECRET = ''
+READABILITY_CONSUMER_SECRET = ''
+READABILITY_CONSUMER_SECRET = ''
 
-LOGIN_URL          = '/login-form/'
+LOGIN_URL = '/login-form/'
 LOGIN_REDIRECT_URL = '/logged-in/'
-LOGIN_ERROR_URL    = '/login-error/'
+LOGIN_ERROR_URL = '/login-error/'
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
