@@ -184,12 +184,6 @@ LOGGING = {
     }
 }
 
-SENTRY_DSN = 'http://c5ac7afcbe6d46ca9876376ec1364c1c:aa4e20f986ac41a49ced8d8eaf88f34e@sentry.mostof.it/4'
-
-# Add raven to the list of installed apps
-INSTALLED_APPS = INSTALLED_APPS + (
-    'raven.contrib.django.raven_compat',
-)
 
 INSTALLED_APPS = INSTALLED_APPS + (
     "compressor",

@@ -12,6 +12,8 @@ SITE_ROOT = dirname(DJANGO_ROOT)
 # Site name:
 SITE_NAME = basename(DJANGO_ROOT)
 
+COMPRESS_URL = "http://cdn1.tweed.li/"
+
 # Add our project to our pythonpath, this way we don't need to type our project
 # name in our dotted import paths:
 path.append(DJANGO_ROOT)
@@ -82,7 +84,7 @@ STATIC_ROOT = normpath(join(SITE_ROOT, 'static'))
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
-STATIC_URL = '/static/'
+ STATIC_URL = COMPRESS_URL
 
 
 # Additional locations of static files
