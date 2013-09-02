@@ -5,4 +5,4 @@ env.hosts = ['base.mostof.it']
 
 @task
 def hello():
-    run("echo hello")
+    run("echo hmm")
