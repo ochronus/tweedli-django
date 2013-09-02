@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67548b76-4b06-4ebd-aef6-8654e2b71ad9" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Csaba\PycharmProjects\tweedli\tweedli_web\settings\local.py" afterPath="$PROJECT_DIR$/tweedli_web/settings/prod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweedli_web/settings/dev.py" afterPath="$PROJECT_DIR$/tweedli_web/settings/dev.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweedli_web/views.py" afterPath="$PROJECT_DIR$/tweedli_web/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tweedli.iws" />
@@ -12,10 +21,12 @@
     <file path="/.gitignore" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378010447426" ignored="false" />
     <file path="/fabfile.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378011033893" ignored="false" />
     <file path="/requirements.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378014941262" ignored="false" />
-    <file path="/Dummy.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378054474572" ignored="false" />
+    <file path="/Dummy.txt" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378084085762" ignored="false" />
     <file path="/settings.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378053550805" ignored="false" />
     <file path="/manage.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378053784712" ignored="false" />
     <file path="/prod.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378084039362" ignored="false" />
+    <file path="/index.html" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378097179999" ignored="false" />
+    <file path="/views.py" changelist="67548b76-4b06-4ebd-aef6-8654e2b71ad9" time="1378095922249" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +58,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweedli_web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="75" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,16 +67,27 @@
       <file leaf-file-name="dev.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="0" selection-end="7884" vertical-scroll-proportion="0.0">
+            <state line="80" column="7" selection-start="2803" selection-end="2810" vertical-scroll-proportion="-3.32">
+              <folding>
+                <element signature="e#43#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="56" selection-start="3211" selection-end="3211" vertical-scroll-proportion="0.6666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="prod.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweedli_web/settings/prod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="21" selection-start="8416" selection-end="8416" vertical-scroll-proportion="0.6947935">
+            <state line="229" column="10" selection-start="8262" selection-end="8262" vertical-scroll-proportion="-12.08">
               <folding />
             </state>
           </provider>
@@ -104,11 +126,13 @@
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/tweedli_web/urls.py" />
-        <option value="$PROJECT_DIR$/tweedli_web/views.py" />
         <option value="$PROJECT_DIR$/tweedli_web/settings.py" />
-        <option value="$PROJECT_DIR$/tweedli_web/settings/dev.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/tweedli_web/settings/prod.py" />
+        <option value="$PROJECT_DIR$/tweedli_web/templates/index.html" />
+        <option value="$PROJECT_DIR$/tweedli_web/settings/dev.py" />
+        <option value="$PROJECT_DIR$/tweedli_web/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -208,6 +232,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweedli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -247,6 +321,11 @@
     <option name="myDjangoConsoleState">
       <PyConsoleSettings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Csaba\PycharmProjects\tweedli" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.Unnamed">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -402,7 +481,11 @@
       <created>1378054475803</created>
       <updated>1378054475803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Caching setup added to production config">
+      <created>1378084087170</created>
+      <updated>1378084087170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -414,7 +497,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24759872" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24759872" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -471,7 +554,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Twitter auth working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caching setup added to production config" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -487,22 +570,18 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="dfgdfg" />
     <MESSAGE value="Twitter auth working" />
+    <MESSAGE value="Caching setup added to production config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tweedli_web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="75" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="222" column="0" selection-start="7884" selection-end="7884" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,16 +632,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/views.py">
+    <entry file="file://$PROJECT_DIR$/tweedli_web/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="75" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="10" selection-start="8262" selection-end="8262" vertical-scroll-proportion="-12.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/__init__.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="24" column="10" selection-start="0" selection-end="5646" vertical-scroll-proportion="40.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.029209621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="2803" selection-end="2810" vertical-scroll-proportion="-3.32">
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweedli_web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -574,16 +683,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="0" selection-end="7884" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/prod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="21" selection-start="8416" selection-end="8416" vertical-scroll-proportion="0.6947935">
+        <state line="64" column="56" selection-start="3211" selection-end="3211" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
