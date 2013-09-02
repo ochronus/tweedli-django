@@ -13,7 +13,7 @@ SITE_ROOT = dirname(DJANGO_ROOT)
 SITE_NAME = basename(DJANGO_ROOT)
 
 COMPRESS_URL = "http://cdn1.tweed.li/"
-
+COMPRESS_OFFLINE = True
 # Add our project to our pythonpath, this way we don't need to type our project
 # name in our dotted import paths:
 path.append(DJANGO_ROOT)
