@@ -1,4 +1,4 @@
-# Reqs
+# Requirements, dependencies
 
 Django==1.5.2
 Fabric==1.7.0
