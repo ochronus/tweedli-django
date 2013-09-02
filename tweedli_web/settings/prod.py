@@ -29,7 +29,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'devel.db',                      # Or path to database file if using sqlite3.
+        'NAME': '/var/www/devel.db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -223,8 +223,8 @@ AUTHENTICATION_BACKENDS = (
 
 TWITTER_CONSUMER_KEY         = 'ntTnSpHEpBeGQMRs4fP9w'
 TWITTER_CONSUMER_SECRET      = 'GMOblgVimQrqprlPrEdug6G6VDGAWooLJnUU8VjYuU'
-FACEBOOK_APP_ID              = ''
-FACEBOOK_API_SECRET          = ''
+FACEBOOK_APP_ID              = '565266063520812'
+FACEBOOK_API_SECRET          = 'cf49e5e12c18190a7efb2f6dacbf13ff'
 LINKEDIN_CONSUMER_KEY        = ''
 LINKEDIN_CONSUMER_SECRET     = ''
 ORKUT_CONSUMER_KEY           = ''
