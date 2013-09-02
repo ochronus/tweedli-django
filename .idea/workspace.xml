@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67548b76-4b06-4ebd-aef6-8654e2b71ad9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/nginx.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweedli_web/settings/common.py" afterPath="$PROJECT_DIR$/tweedli_web/settings/common.py" />
     </list>
     <ignored path="tweedli.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="common.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tweedli_web/settings/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="344" selection-end="344" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
-              <folding />
+            <state line="205" column="55" selection-start="7151" selection-end="7151" vertical-scroll-proportion="0.4" vertical-offset="2745" max-vertical-offset="3570">
+              <folding>
+                <element signature="e#43#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +61,6 @@
         <option value="$PROJECT_DIR$/tweedli_web/tests/helpers.py" />
         <option value="$PROJECT_DIR$/tweedli_web/tests/test_code_style.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/tweedli_web/settings/common.py" />
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/tests/helpers.py" />
         <option value="$PROJECT_DIR$/tweedli_web/settings/dev.py" />
@@ -78,6 +69,7 @@
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/tweedli_web/settings/common.py" />
       </list>
     </option>
   </component>
@@ -583,15 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="32" selection-start="7606" selection-end="7606" vertical-scroll-proportion="0.7882353" vertical-offset="2690" max-vertical-offset="3570">
-          <folding>
-            <element signature="e#43#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
@@ -627,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/virtualenv/lib/python2.7/site-packages/pyflakes/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7941176" vertical-offset="675" max-vertical-offset="1935">
@@ -655,9 +631,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="344" selection-end="344" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1980">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
@@ -666,6 +642,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="344" selection-end="344" vertical-scroll-proportion="0.14760147" vertical-offset="0" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweedli_web/settings/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="55" selection-start="7151" selection-end="7151" vertical-scroll-proportion="0.4" vertical-offset="2745" max-vertical-offset="3570">
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
