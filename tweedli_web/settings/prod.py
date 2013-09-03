@@ -20,6 +20,7 @@ DATABASES = {
         # localhost through TCP.
         'HOST': '127.0.0.1',
         'PORT': '',                      # Set to empty string for default.
+        'TEST_NAME': 'tweedli_test'
     }
 }
 
