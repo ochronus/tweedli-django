@@ -116,6 +116,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
 )
 
 ROOT_URLCONF = 'tweedli_web.urls'
@@ -230,3 +231,5 @@ LOGIN_REDIRECT_URL = '/logged-in/'
 LOGIN_ERROR_URL = '/login-error/'
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+SESSION_COOKIE_NAME = 'tweedli'
