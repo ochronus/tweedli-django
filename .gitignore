@@ -51,4 +51,7 @@ _site/media
 
 static/CACHE
 
-.idea
+# Intellij
+.idea/
+*.iml
+*.iws

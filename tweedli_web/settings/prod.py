@@ -10,12 +10,12 @@ TEMPLATE_DEBUG = False
 DATABASES = {
     'default': {
         # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         # Or path to database file if using sqlite3.
-        'NAME': '/var/www/devel.db',
+        'NAME': 'tweedli',
         # The following settings are not used with sqlite3:
-        'USER': '',
-        'PASSWORD': '',
+        'USER': 'tweedli',
+        'PASSWORD': 'tweedli',
         # Empty for localhost through domain sockets or '127.0.0.1' for
         # localhost through TCP.
         'HOST': '',
