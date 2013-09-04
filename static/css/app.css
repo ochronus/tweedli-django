@@ -1,0 +1,405 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.tweet-item {
+    border: 1px;
+}
+
+
+
+/* TWEET LIST */
+
+input, button, select, textarea {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hero-unit h1 {
+	font-size: 48px;
+}
+
+.hero-unit {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+	background-color: #FCFCFC;
+}
+
+div.section {
+	background-color: #FFF;
+	border: 1px solid #B8CCE9;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(10,10,60,0.1);
+	padding: 20px;
+}
+
+.colophon, .colophon a {
+	font-weight: 300;
+	color: #828CA7;
+}
+
+.colophon a:hover {
+	text-decoration: none;
+}
+
+hr {
+	border-top-color: rgba(10, 80, 195, 0.2);
+	border-bottom-color: rgba(255,255,255,0.9);
+}
+
+.thumbnail {
+	border-color: #CCC;
+	background-color: #FAFAFA;
+}
+
+.counter {
+	margin-top: 68px;
+	font-size: 46px;
+	line-height: 46px;
+	font-weight: bold;
+}
+
+.caption {
+	padding: 9px;
+}
+
+/* Composer */
+
+.composer {
+	margin-bottom: 28px;
+}
+
+.composer textarea {
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	margin-bottom: 6px;
+	/* http://css-tricks.com/box-sizing/ */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.composer .form-actions {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+}
+
+.profile.avatar span{
+	position:absolute;
+	display:block;
+	width:16px;
+	height:16px;
+	background-image:url('../images/network-icons.png');
+	background-repeat:no-repeat;
+	right:0;
+	top:32px;
+}
+
+.profile.avatar.twitter span{
+	background-position:0 0;
+}
+
+.profile.avatar img {
+	border-radius: 4px;
+}
+
+.profile {
+	position: relative;
+	width: 48px;
+	height: 48px;
+	margin-bottom: 10px;
+	margin-right: 6px;
+	float: left;
+	border-radius: 4px;
+}
+
+.composer .profile {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.composer .profile:hover {
+	opacity: 0.8;
+}
+
+.composer .profile.selected {
+	opacity: 1;
+	border-bottom: 4px solid #5ba525;
+	margin-bottom: 6px;
+}
+
+.composer .profile.selected img {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.connect-account {
+	float: left;
+	background: url('../images/add_account.png') no-repeat 0px 11px;
+	padding: 9px 9px 9px 34px;
+	margin-left: 12px;
+	width: 100px;
+	line-height: 13px;
+	font-size: 13px;
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+.connect-account:hover {
+	opacity: 1;
+}
+
+.countdown {
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.countdown.warning {
+	color: #D40D12;
+}
+
+.attachments > div {
+	margin-bottom: 6px;
+	background-color: #FAFAFA;
+}
+
+.dropzone {
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.dropzone.over {
+	background-color: #D6F2D0;
+	color: #000;
+}
+
+.picturezone {
+	padding: 10px 10px;
+}
+
+img.picture {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.picturezone img {
+	max-width: 80px;
+}
+
+/* Tabs */
+
+div.section.tab-inner {
+	border-top-left-radius: 0;
+	position: relative;
+	z-index: 1;
+}
+
+ul.tabs {
+	list-style: none;
+	margin: 0;
+	margin-bottom: -4px;
+	height: 53px;
+}
+
+ul.tabs li.tab {
+	float: left;
+	cursor: pointer;
+	margin-right: 4px;
+	padding: 6px 10px 7px;
+	border: 1px solid #B8CCE9;
+	border-radius: 8px 8px 0 0;
+	border-bottom: 0;
+	min-width: 90px;
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#FBFBFB)); /* Safari 4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #ECECEC, #FBFBFB); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #ECECEC, #FBFBFB); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #ECECEC, #FBFBFB); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #ECECEC, #FBFBFB); /* Firefox 16+, IE10, Opera 12.50+ */
+	position: relative;
+	z-index: 0;
+	margin-top: 3px;
+}
+
+ul.tabs li.tab.selected {
+	background-image: none;
+	background-color: #FFF;
+	position: relative;
+	z-index: 10;
+	margin-top: 0;
+}
+
+ul.tabs .profile img {
+	width: 30px;
+	height: 30px;
+}
+
+.profile.twitter span.small {
+	background-position: -18px 0;
+}
+
+.profile.avatar span.small {
+	width: 12px;
+	height: 13px;
+	top: 18px;
+}
+
+ul.tabs span.profile {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 4px;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+span.tab-meta {
+	float: left;
+}
+
+span.tab-username, span.tab-updates {
+	display: block;
+}
+
+span.tab-updates {
+	color: #A7A7A7;
+	font-size: 11px;
+}
+
+
+/* Timeline */
+
+.posts {
+	margin-bottom: 25px;
+}
+
+ul.timeline {
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+li.heading {
+	padding: 10px 0px;
+}
+
+li.post {
+	position: relative;
+	padding: 10px 170px 16px 140px;
+	border-bottom: 1px solid #EBEBEB;
+	line-height: 22px;
+	font-size: 15px;
+	font-weight: 300;
+	background-color: #FFF;
+}
+
+li.post:last-child {
+	border-bottom: none;
+}
+
+span.post-time {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	padding: 10px 0px;
+	color: #999;
+	cursor: pointer;
+}
+
+div.options {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	padding: 10px 0px;
+	opacity: 0.5;
+}
+
+.update-body {
+	margin-bottom: 6px;
+}
+
+li.post:hover div.options {
+	opacity: 1;
+}
+
+li.post:hover .post-time {
+	color: #000;
+}
+
+li.post:hover .update-body {
+	color: #000;
+}
+
+.ui-state-highlight {
+	background-color: #D6F2D0;
+	height: 70px;
+}
+
+.sort-handle {
+	cursor: move;
+}
+
+
+/* Empty Timeline */
+
+.empty-timeline {
+	background: url('../images/empty-timeline.png') no-repeat;
+	height: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.empty-timeline h3 {
+	padding-top: 120px;
+	margin-bottom: 20px;
+	font-weight: 200;
+}
+

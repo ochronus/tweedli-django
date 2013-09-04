@@ -1,0 +1,156 @@
+{% load staticfiles %}
+{% load compress %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
+
+        {% compress css %}
+          <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+          <link rel="stylesheet" href="{% static "css/bootstrap-theme.min.css" %}">
+          <link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+          <link rel="stylesheet" href="{% static "css/jquery-ui-1.10.0.custom.css" %}">
+          <link rel="stylesheet" href="{% static "css/app.css" %}">
+        {% endcompress %}
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container logged-in">
+<div class="composer section">
+
+					<div id="profiles"><div class="profile avatar twitter selected" data-id="51e7e1e6f0c2983817000000" data-title-selected="Deselect @ochronus" data-title-select="Post to @ochronus" rel="tooltip" title="Deselect @ochronus">
+				<img src="http://a0.twimg.com/profile_images/378800000146323387/39a9429ec95728fa6f19acc001b4ef93_normal.jpeg" title="Csaba Okrona">
+				<span></span>
+			</div></div>
+
+					<div class="connect-account signin">Connect Account</div>
+
+					<div class="countdown"></div>
+
+					<textarea class="input-xlarge" id="textarea" rows="3" placeholder="Write your post here"></textarea>
+
+					<div class="attachments">
+						<div class="picturezone" style="display: none;">
+							<button class="close">×</button>
+							<img class="picture thumbnail" src="">
+						</div>
+
+						<div class="dropzone" style="display:none;">
+							Drag a picture here to upload!
+						</div>
+					</div>
+
+					<div class="form-actions">
+						<div class="pull-left">
+							<button id="addpicture" class="btn" title="Upload a photo or picture" rel="tooltip"><i class="icon-camera"></i></button>
+						</div>
+						<div class="pull-right">
+							<button id="postnow" class="btn postnow" data-loading-text="Posting...">Post now</button>
+							<button id="addtoposts" type="submit" class="btn btn-primary" title="(⌘+enter)">Add to Circular</button>
+						</div>
+					</div>
+				</div>
+<div class="posts">
+					<h2>Pending posts</h2>
+
+
+
+
+					<div id="timeline-51e7e1e6f0c2983817000000" class="timeline-wrapper section tab-inner">
+                        <ul id="post-list" class="timeline ui-sortable" style="display: block;"></ul>
+                    </div>
+
+				</div>
+
+   	  </div> <!-- Container -->
+
+
+    <script id="post-item-template" type="text/template">
+            <li class="post" id="<%= id %>" data-id="5227394af0c298b24d000002">
+				<span class="post-time link-to-settings" title="Click to change your times" rel="tooltip">11:17 am</span>
+				<div class="update-body">
+					sdgsdgsdfg
+				</div>
+				<div class="options">
+					<div class="btn-group">
+						<a class="btn sort-handle" href="#" title="Drag to re-order" rel="tooltip"><i class="icon-move"></i></a>
+						<a class="btn postnow" href="#" title="Post this now" rel="tooltip"><i class="icon-play-circle"></i></a>
+						<a class="btn deletepost" href="#" title="Delete this post" rel="tooltip"><i class="icon-remove"></i></a>
+					</div>
+				</div>
+			</li>
+    </script>
+
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>
+    </div>
+
+         {% compress js %}
+          <script src="{% static "js/modernizr.min.js" %}"></script>
+          <script src="{% static "js/jquery-1.10.2.min.js" %}"></script>
+          <script src="{% static "js/jquery-ui.min.js" %}"></script>
+          <script src="{% static "js/bootstrap.min.js" %}"></script>
+          <script src="{% static "js/underscore.min.js" %}"></script>
+          <script src="{% static "js/backbone.min.js" %}"></script>
+          <script src="{% static "js/mustache.min.js" %}"></script>
+          <script src="{% static "js/app.js" %}"></script>
+        {% endcompress %}
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            g.async = true;
+            g.defer = true;
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+  </body>
+</html>
