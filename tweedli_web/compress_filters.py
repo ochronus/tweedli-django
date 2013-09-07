@@ -1,7 +1,6 @@
 from __future__ import absolute_import
 from compressor.filters.base import CompilerFilter
 import hashlib
-from django.conf import settings
 from django.core.cache import cache
 
 KEY = "compress:{digest}"
