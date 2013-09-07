@@ -65,7 +65,13 @@ MEDIA_URL = ''
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
 STATIC_ROOT = normpath(join(SITE_ROOT, 'static'))
+
 COMPRESS_ROOT = STATIC_ROOT
+COMPRESS_CSS_FILTERS = ['compressor.filters.css_default.CssAbsoluteFilter',
+                        'compressor.filters.yui.YUICSSFilter',
+                        'tweedli_web.compress_filters.CleanCSSFilter']
+COMPRESS_JS_FILTERS = ['tweedli_web.compress_filters.UglifyJSFilter']
+
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
