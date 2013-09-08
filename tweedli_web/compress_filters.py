@@ -17,7 +17,7 @@ def set_file(digest, value):
 
 
 class CleanCSSFilter(CompilerFilter):
-    command = 'cleancss'
+    command = 'cleancss -e --s0'
 
     def input(self, **kwargs):
         content_hash = hashlib.sha1(self.content.encode('utf8')).hexdigest()
