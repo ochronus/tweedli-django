@@ -91,7 +91,7 @@
 						</div>
 						<div class="pull-right">
 							<button id="postnow" class="btn postnow" data-loading-text="Posting...">Post now</button>
-							<button id="addtoposts" type="submit" class="btn btn-primary" title="(⌘+enter)">Add to Circular</button>
+							<button id="addtoposts" type="submit" class="btn btn-primary" title="(⌘+enter)">Add to queue</button>
 						</div>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 
 
 
-					<div id="timeline-51e7e1e6f0c2983817000000" class="timeline-wrapper section tab-inner">
+					<div id="timeline" class="timeline-wrapper section tab-inner">
                         <ul id="post-list" class="timeline ui-sortable" style="display: block;"></ul>
                     </div>
 
@@ -111,10 +111,10 @@
 
 
     <script id="post-item-template" type="text/template">
-            <li class="post" id="<%= id %>" data-id="5227394af0c298b24d000002">
+            <li class="post" id="<%= id %>" data-id="<%= id %>">
 				<span class="post-time link-to-settings" title="Click to change your times" rel="tooltip">11:17 am</span>
 				<div class="update-body">
-					sdgsdgsdfg
+					<%= name %> (<%= id %>)
 				</div>
 				<div class="options">
 					<div class="btn-group">

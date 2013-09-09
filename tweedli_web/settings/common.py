@@ -147,8 +147,8 @@ INSTALLED_APPS = (
     'social_auth',
     'django_nose',
     'django_jinja2',
-    'south',
     'tweedli_web',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging
