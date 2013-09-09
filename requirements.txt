@@ -1,6 +1,10 @@
 Django==1.5.2
 Fabric==1.7.0
+Jinja2==2.7.1
+django-jinja2==0.1
+MarkupSafe==0.18
 South==0.8.2
+argparse==1.2.1
 autopep8==0.9.3
 configglue==1.1.2
 distribute==0.7.3

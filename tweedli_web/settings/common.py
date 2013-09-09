@@ -97,9 +97,8 @@ SECRET_KEY = 'fghgdfhd54e45y46737ydth'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    'django.template.loaders.filesystem.Loader',
-    'django.template.loaders.app_directories.Loader',
-    #     'django.template.loaders.eggs.Loader',
+    'django_jinja2.loaders.filesystem.Loader',
+    'django_jinja2.loaders.app_directories.Loader',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -147,6 +146,9 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'social_auth',
     'django_nose',
+    'django_jinja2',
+    'south',
+    'tweedli_web',
 )
 
 # A sample logging configuration. The only tangible logging
