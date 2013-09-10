@@ -50,3 +50,5 @@ CACHES = {
         },
     },
 }
+
+STATSD_CLIENT = 'django_statsd.clients.normal'

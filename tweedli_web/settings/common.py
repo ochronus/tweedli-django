@@ -241,3 +241,13 @@ LOGIN_ERROR_URL = '/login-error/'
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 SESSION_COOKIE_NAME = 'tweedli'
+
+# statsd config
+MIDDLEWARE_CLASSES = (
+    'django_statsd.middleware.GraphiteRequestTimingMiddleware',
+    'django_statsd.middleware.GraphiteMiddleware',
+) + MIDDLEWARE_CLASSES
+STATSD_PATCHES = [
+    'django_statsd.patches.db',
+    'django_statsd.patches.cache',
+]

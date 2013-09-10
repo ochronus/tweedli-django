@@ -18,3 +18,5 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default.
     }
 }
+
+STATSD_CLIENT = 'django_statsd.clients.null'
